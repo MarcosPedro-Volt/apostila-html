@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  
+ 
+  <head>
+    <meta charset="UTF-8">
+    
+    <style>
+      #titulo{
+        background: #8FBC8F;
+        text-align: center;
+        padding: 30px;
+        font-family: 'Tahoma';
+        font-size: 40px;
+      }
+      
+      body{
+        background-color: #F0F8FF;
+      }
+      
+      nav{
+        display: flex;
+        justify-content: center;
+      }
+      
+      nav ul a{
+        padding: 15px;
+        text-decoration: none;
+        color: brown;
+      }
+      
+      .section1{
+          
+          background: #8FBC8F;
+          border: 5px solid black;
+          width: 80vw;
+          padding: 20px;
+          margin: 20px auto;
+            
+      }
+        
+      .grid-button{
+       
+        display: grid;
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 80vw;
+        gap: 10px;
+        margin: 20px auto;
+        
+        
+      }
+      
+      .grid-item{
+        
+        padding: 10px;
+        background-color: #346d5d;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+      .grid-item:hover {
+        background-color: #48ae79;
+      }
+      
+      #a-grid{
+        color: #83fe00;
+        text-decoration: none;
+      }
+
+    .artigo {
+    
+    padding: 10px;
+    margin: 0 auto;
+    height: 100vh;
+    background: #4b8f60;
+    }
+
+ 
+    
+    </style>
+    
+  </head>
+  
+  <body>
+    
+    <h1 id="titulo">Culturas do Brasil</h1>
+      
+    <div>
+      <nav>
+        <ul>
+          <a href="https://brasilescola.uol.com.br/sociologia/cultura-brasileira.htm" target="_blank">B.E. CULTURA BRASILEIRA</a>
+          <a href="https://www.todamateria.com.br/cultura-brasileira/" target="_blank">T.M.CULTURA BRASILEIRA</a>
+          <a href="https://mundoeducacao.uol.com.br/geografia/diversidade-cultural-no-brasil.htm" target="_blank">DIVERSIDADE CULTURAL</a>
+        </ul>
+      </nav>
+    </div>
+    
+    <section class="section1">
+      <h2>A cultura brasileira</h2>
+      "A cultura brasileira, assim como a formação étnica do povo brasileiro, é vasta e diversa. 
+      Nossos hábitos culturais receberam elementos e influências de povos indígenas, africanos, 
+      portugueses, espanhóis, italianos e japoneses, entre outros, devido à colonização, à imigração
+      e aos povos que já habitavam aqui.São elementos característicos da cultura brasileira a música popular,
+      a literatura, a culinária, as festas tradicionais nacionais, como o Carnaval, e as festas tradicionais locais,
+      como as Cavalhadas de Pirenópolis, em Goiás, e o Festival de Parintins, no Amazonas.
+    </section>
+
+    <button class="grid-button">
+      <div class="grid-item">
+          <a id="a-grid" href="#musica">Música</a>
+      </div>
+      <div class="grid-item">
+          <a id="a-grid" href="#literatura">Literatura</a>
+      </div>
+      <div class="grid-item">
+          <a id="a-grid" href="#festas">Festas Tradicionais</a>
+      </div>
+      <div class="grid-item">
+          <a id="a-grid" href="#culinaria">Culinária</a>
+      </div>
+     
+    </button>
+      
+    <section id="musica" class="artigo">
+      <h3>Música no Brasil</h3>
+      <a href="#titulo">voltar no inicio</a>
+      <p>Faça uma pesquisa sobre o e digite aqui!</p>
+    </section>
+    <section id="literatura" class="artigo">
+      <h3>Literatura no Brasil</h3>
+      <a href="#titulo">voltar no inicio</a>
+      <p>Faça uma pesquisa sobre o e digite aqui!</p>
+    </section>
+    <section id="festas" class="artigo">
+      <h3>Festas tradicionais no Brasil</h3>
+      <a href="#titulo">voltar no inicio</a>
+      <p>Faça uma pesquisa sobre o e digite aqui!</p>
+    </section>
+    <section id="culinaria" class="artigo">
+      <h3>Culinária no Brasil</h3>
+      <a href="#titulo">Voltar</a>
+      <p>Faça uma pesquisa sobre o assunto e digite aqui!</p>
+
+    </section>
+  </body>
+</html>
